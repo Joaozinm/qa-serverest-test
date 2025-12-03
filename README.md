@@ -79,10 +79,11 @@ Isso centraliza as chamadas HTTP e deixa os testes mais limpos.
 
 ## 🧪 Cenários Cobertos
 
-### 🌐 API Tests (3 Cenários + 1 Extra)
 
-| Cenário | Endpoint | Status |
-|---------|----------|--------|
+### 🌐 API Tests (4 Cenários)
+
+| Cenário | Endpoint | Status | Descrição |
+| :--- | :--- | :---: | :--- |
 | Listar usuários | `GET /usuarios` | ✅ | Valida status 200 e contrato da lista |
 | Criar usuário | `POST /usuarios` | ✅ | Cria usuário Admin e valida ID retornado |
 | Autenticação | `POST /login` | ✅ | Realiza login e valida recebimento do Token JWT |
@@ -90,8 +91,8 @@ Isso centraliza as chamadas HTTP e deixa os testes mais limpos.
 
 ### 🖥️ Teste E2E GUI (3 Cenários)
 
-| Cenário | Descrição |
-|---------|-----------|
+| Cenário | Descrição | Detalhes |
+| :--- | :--- | :--- |
 | Cadastro de usuário | Fluxo completo no frontend | Preenchimento de formulário e validação de mensagem de sucesso |
 | Login com sucesso | Criando usuário via API (abordagem híbrida) | Abordagem híbrida: Cria usuário via API e loga via Interface |
 | Adicionar produto ao carrinho | Testando fluxo de compra | Usuário logado adiciona produto à lista e valida persistência na tela "Lista de Compras" |
