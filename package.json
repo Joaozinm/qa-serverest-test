@@ -1,0 +1,23 @@
+{
+  "name": "qa-serverest",
+  "version": "1.0.0",
+  "description": "Cypress E2E automation",
+  "homepage": "https://github.com/Joaozinm/qa-serverest-test#readme",
+  "bugs": {
+    "url": "https://github.com/Joaozinm/qa-serverest-test/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joaozinm/qa-serverest-test.git"
+  },
+  "license": "ISC",
+  "author": "João Melo",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  }
+}
