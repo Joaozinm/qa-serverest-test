@@ -137,3 +137,4 @@ Este projeto adiciona:
 - ✅ Page Objects
 - ✅ Massa dinâmica
 - ✅ CI/CD
+<img width="795" height="303" alt="image" src="https://github.com/user-attachments/assets/a244b7d1-69dc-4a88-9c53-2795bd5e11f1" />
