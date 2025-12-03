@@ -22,11 +22,6 @@ jobs:
         with:
           browser: chrome
           headless: true
-      - name: Run Cypress tests
-        uses: cypress-io/github-action@v6
-        with:
-          browser: chrome
-          headless: true
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         if: failure()
