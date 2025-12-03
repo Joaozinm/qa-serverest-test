@@ -95,7 +95,7 @@ Isso centraliza as chamadas HTTP e deixa os testes mais limpos.
 | :--- | :--- | :--- |
 | Cadastro de usuário | Fluxo completo no frontend | Preenchimento de formulário e validação de mensagem de sucesso |
 | Login com sucesso | Criando usuário via API (abordagem híbrida) | Abordagem híbrida: Cria usuário via API e loga via Interface |
-| Adicionar produto ao carrinho | Testando fluxo de compra | Usuário logado adiciona produto à lista e valida persistência na tela "Lista de Compras" |
+| Adicionar produto a lista de compras | Testando fluxo de compra | Usuário logado adiciona produto à lista e valida persistência na tela "Lista de Compras" |
 
 ## ▶️ Como Executar
 
