@@ -1,4 +1,4 @@
-## 🧪 ServerRest QA Challenge – Cypress
+## 🧪 ServerRest QA Teste – Cypress
 
 Projeto completo de automação de testes API + Frontend (E2E) utilizando Cypress + JavaScript, seguindo boas práticas, Page Objects e abordagem híbrida (API + GUI).
 
